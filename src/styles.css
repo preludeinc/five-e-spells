@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+.page-background {
+    background-color: #0C0C0C;
+}
+
+.background {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('/stars.avif');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    opacity: 0.9;
+}
+
+h1 {
+    font-family: 'Lora';
+    color: #FFF;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
